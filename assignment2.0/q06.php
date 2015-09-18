@@ -1,1 +1,1 @@
-<!-- SELECT fldCourseName FROM tblCourses WHERE  fldCourseName = 'data' AND NOT fldDepartment = 'CS'
+<!-- SELECT fldCourseName FROM tblCourses WHERE fldDepartment <> 'CS' AND fldCourseName LIKE '%data%'

@@ -1,1 +1,1 @@
-<!-- SELECT DISTINCT fldBuilding FROM tblSections
+<!-- SELECT DISTINCT fldBuilding FROM tblSections 

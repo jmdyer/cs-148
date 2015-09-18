@@ -1,1 +1,1 @@
-<!-- SELECT fldDepartment from tblCourses WHERE fldCourseName = 
+<!-- SELECT fldDepartment from tblCourses WHERE fldCourseName Like "%Introduction%"

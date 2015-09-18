@@ -1,1 +1,1 @@
-<!-- SELECT COUNT(DISTINCT fldDepartment) from tblCourses
+<!-- SELECT COUNT(DISTINCT fldDepartment) from tblCourses 
