@@ -25,7 +25,7 @@
 <!--
 
 SELECT pmkNetId FROM tblTeachers
-SELECT fldDepartment from tblCourses WHERE fldCourseName Like "%Introduction%"
+SELECT fldDepartment from tblCourses WHERE fldCourseName Like "Introduction%"
 SELECT * FROM tblSections WHERE fldStart = '13:10:00' AND fldBuilding = "Kalkin"
 SELECT * from tblCourses WHERE fldCourseName = "Database Design for the Web"
 SELECT fldLastName, fldFirstName FROM tblTeachers where pmkNetId LIKE 'r%o'
