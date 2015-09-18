@@ -22,5 +22,20 @@
         <p><a href="/cs148develop/assignment2.0/q09.php">q09</a></p>
         <p><a href="/cs148develop/assignment2.0/q10.php">q10</a></p>
         
+<!--
+
+SELECT pmkNetId FROM tblTeachers
+SELECT fldDepartment from tblCourses WHERE fldCourseName Like "%Introduction%"
+SELECT * FROM tblSections WHERE fldStart = '13:10:00' AND fldBuilding = "Kalkin"
+SELECT * from tblCourses WHERE fldCourseName = "Database Design for the Web"
+SELECT fldLastName, fldFirstName FROM tblTeachers where pmkNetId LIKE 'r%o'
+SELECT fldCourseName FROM tblCourses WHERE fldDepartment <> 'CS' AND fldCourseName LIKE '%data%'
+SELECT COUNT(DISTINCT fldDepartment) from tblCourses 
+SELECT DISTINCT fldBuilding, COUNT(*) AS fldSection FROM tblSections GROUP BY fldBuilding
+SELECT DISTINCT fldBuilding, COUNT(*) AS fldNumStudents FROM tblSections WHERE fldDays LIKE '%W%' GROUP BY fldBuilding ORDER BY fldNumStudents DESC
+SELECT DISTINCT fldBuilding, COUNT(*) AS fldNumStudents FROM tblSections WHERE fldDays LIKE '%F%' GROUP BY fldBuilding ORDER BY fldNumStudents DESC
+
+-->
+        
     </body>
 </html>
