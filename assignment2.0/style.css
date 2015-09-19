@@ -4,6 +4,24 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 
+html {
+    font-family: sans-serif;
+}
+
+table{
+    border: medium #000080 solid;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+}
+tbody{height: 10em;
+      overflow: auto;}
+td, th {
+    border: thin #000080 solid;
+    border-collapse: collapse;
+}
+
 tr:nth-child(odd) {
     background: lightcyan;
 }

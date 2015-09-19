@@ -6,8 +6,8 @@ include "top.php";
 <?php
 print '<body id="' . $path_parts['filename'] . '">';
 //now print out each record
-$query = 'SELECT DISTINCT fldBuilding, COUNT(*) AS fldSection FROM tblSections GROUP BY fldBuilding';
-$info2 = $thisDatabaseReader->select($query, "", 0, 0, 0, 0, false, false);
+$query = 'SELECT DISTINCT fnkCourseId, COUNT(fnkCourseId) FROM tblSections GROUP BY fnkCourseId HAVING COUNT(fnkCourseId)>=50;';
+$info2 = $thisDatabaseReader->select($query, "", 0, 0, 0, 1, false, false);
 $columns = 2;
 print '<h2>Total Records: ' . count($info2) . '</h2>';
 print '<h3>SQL: ' . $query . '</h3>';

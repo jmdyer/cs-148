@@ -6,8 +6,8 @@ include "top.php";
 <?php
 print '<body id="' . $path_parts['filename'] . '">';
 //now print out each record
-$query = 'SELECT fldDepartment from tblCourses WHERE fldCourseName Like "Introduction%"';
-$info2 = $thisDatabaseReader->select($query, "", 1, 2, 0, 0, false, false);
+$query = 'SELECT fldDepartment FROM tblCourses WHERE fldCourseName LIKE "Introduction%"';
+$info2 = $thisDatabaseReader->select($query, "", 1, 0, 2, 0, false, false);
 $columns = 1;
 print '<h2>Total Records: ' . count($info2) . '</h2>';
 print '<h3>SQL: ' . $query . '</h3>';

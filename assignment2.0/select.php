@@ -21,12 +21,14 @@
         <p><a href="/cs148develop/assignment2.0/q08.php">q08</a></p>
         <p><a href="/cs148develop/assignment2.0/q09.php">q09</a></p>
         <p><a href="/cs148develop/assignment2.0/q10.php">q10</a></p>
+        <p><a href="/cs148develop/assignment2.0/q11.php">q11</a></p>
+        <p><a href="/cs148develop/assignment2.0/q12.php">q12</a></p>
         
 <!--
 
 SELECT pmkNetId FROM tblTeachers
 SELECT fldDepartment from tblCourses WHERE fldCourseName Like "Introduction%"
-SELECT * FROM tblSections WHERE fldStart = '13:10:00' AND fldBuilding = "Kalkin"
+SELECT * FROM tblSections WHERE fldStart = "13:10:00" AND fldBuilding = "Kalkin"
 SELECT * from tblCourses WHERE fldCourseName = "Database Design for the Web"
 SELECT fldLastName, fldFirstName FROM tblTeachers where pmkNetId LIKE 'r%o'
 SELECT fldCourseName FROM tblCourses WHERE fldDepartment <> 'CS' AND fldCourseName LIKE '%data%'
