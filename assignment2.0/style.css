@@ -9,21 +9,24 @@ html {
 }
 
 table{
-    border: medium #000080 solid;
+    border: thin maroon solid;
     border-collapse: collapse;
     width: 90%;
     margin: auto;
-    max-width: 600px;
+    max-width: 650px;
 }
-tbody{height: 10em;
-      overflow: auto;}
+tbody{
+    height: 10em;
+    overflow: auto;
+}
+
 td, th {
-    border: thin #000080 solid;
+    border: thin maroon solid;
     border-collapse: collapse;
 }
 
 tr:nth-child(odd) {
-    background: lightcyan;
+    background: lightsalmon;
 }
 
 tr:nth-child(even) {
