@@ -2,5 +2,5 @@ SELECT tblStudents.fldFirstName, tblStudents.fldLastName, COUNT(tblEnrolls.fnkSt
 WHERE tblStudents.pmkStudentId = tblEnrolls.fnkStudentId 
 AND tblStudents.fldState = "VT" 
 AND tblEnrolls.fldGrade > (SELECT AVG(fldGrade) from tblEnrolls INNER JOIN tblStudents ON tblStudents.pmkStudentId = tblEnrolls.fnkStudentID WHERE tblStudents.fldState = "VT")
-GROUP BY tblEnrolls.fldGrade
+GROUP BY tblEnrolls.fnkStudentId
 ORDER BY tblEnrolls.fldGrade DESC
