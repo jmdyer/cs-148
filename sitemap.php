@@ -21,6 +21,7 @@
         
         <p><a href="assignment1.0/index.php">Assignment 1 - Sample Tables</a></p>
         <p><a href="assignment2.0/select.php">Assignment 2 - SQL Select</a></p>
+        <p><a href="assignment3.0/join.php">Assignment 3 - SQL Join</a></p>
     </body>
     
 </html>
