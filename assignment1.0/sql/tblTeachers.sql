@@ -231,7 +231,7 @@ INSERT INTO tblTeachers (fldLastName, fldFirstName, pmkNetId, fldSalary, fldPhon
 ('Rodriguez', 'Carlos ', 'crodrig4', 212463, '6562140'),
 ('Byrne', 'Clare ', 'csbyrne', 33053, '6562152'),
 ('Schnitzlein', 'Charles R', 'cschnitz', 89103, '6561039'),
-('Smith', 'Carmen Julia Petrick', 'csmith53', 123841, '6563041'),
+('Smith', 'Carmen Julia Petrick', 'csmith43', 123841, '6563041'),
 ('Steele', 'Caitlin S', 'cssteele', 92510, '6565374'),
 ('Stats', 'Clyde ', 'cstats', 41706, '6567066'),
 ('Miller', 'Carol Therese', 'ctmiller', 210101, '6562066'),
