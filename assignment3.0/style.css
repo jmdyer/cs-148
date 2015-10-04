@@ -8,7 +8,7 @@ html {
     font-family: sans-serif;
 }
 
-p.sql {
+.sql {
     font-size: .9em;
     margin-left: 2em;
     font-weight: normal;
