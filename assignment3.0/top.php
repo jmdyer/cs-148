@@ -5,7 +5,7 @@ require_once('lib/custom-functions.php');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>query </title>
+        <title>join sql statements</title>
         <meta charset="utf-8">
         <meta name="author" content="Joelle Dyer">
         <meta name="description" content="sql statements">

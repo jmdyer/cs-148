@@ -8,6 +8,11 @@ html {
     font-family: sans-serif;
 }
 
+p.sql {
+    font-size: .9em;
+    margin-left: 2em;
+}
+
 table{
     border: thin maroon solid;
     border-collapse: collapse;
