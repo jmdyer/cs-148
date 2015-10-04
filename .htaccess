@@ -1,0 +1,10 @@
+<Files *>
+AuthType WebAuth
+
+require user jmdyer
+
+satisfy any
+
+order allow,deny
+</Files>
+
